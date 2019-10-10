@@ -1,0 +1,708 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    border: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,address{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+@font-face{
+    font-family:proximanova-regular-webfont;
+    src: url(../fonts/proxima_nova/proximanova-regular-webfont.ttf);
+}
+
+@font-face{
+    font-family:proximanova-bold-webfont;
+    src: url(../fonts/proxima_nova/proximanova-bold-webfont.ttf);
+}
+
+@font-face{
+    font-family:proximanova-boldit-webfont;
+    src: url(../fonts/proxima_nova/proximanova-boldit-webfont.ttf);
+}
+
+.headline{
+    background: #11161d;
+}
+
+.headline p{
+    font-family:proximanova-regular-webfont;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #898b8f;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+.headline .login a{
+    text-decoration: none;
+}
+
+.headline .login h6{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #028794;
+    font-family:proximanova-bold-webfont;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.headline .login h6:hover{
+    color: #898b8f;
+    transition: all linear .6s;
+}
+
+.headline .reg a{
+    text-decoration: none;
+}
+
+.headline .reg h6{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #028794;
+    font-family:proximanova-bold-webfont;
+    margin-top: 8px
+}
+
+.headline .reg h6:hover{
+    color: #898b8f;
+    transition: all linear .6s;
+}
+
+header{
+    background: #273140;
+}
+
+.navbar-toggle{
+    border: 1px solid #fff;
+    padding: 5px 5px;
+    margin-top: 12px;
+}
+
+.navbar-toggle .icon-bar{
+    background: #028794;
+}
+
+.navbar-brand{
+    padding: 0px;
+}
+
+nav img{
+    width: 130px;
+    margin-top: 8px;
+}
+.nav .active{
+    color: #028794;
+}
+.nav{
+    padding-left: 70px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+    background: none;
+}
+
+.nav li a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-family:proximanova-bold-webfont;
+    
+}
+
+.nav li a:hover{
+    color: #028794;
+    transition: all linear .7s;
+}
+
+.navbar-right li a{
+    padding: 0px;
+    margin-top: 12px;
+}
+
+.navbar-right li a:hover{
+    background: none;
+}
+
+.navbar-right li a i{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    background: #028794;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;border-radius: 50%;border-radius: 50%;
+    -webkit-border-radius: 50%;border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .5s;
+}
+
+.navbar-right li a i:hover{
+    color: #028794;
+    background: #fff;
+    transform: rotate(360deg);
+}
+
+/*.........header-part end.........*/
+.welcome_bg{
+    background: #273140;
+}
+.welcome{
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.welcome h5{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #028794;
+    font-family:proximanova-bold-webfont;
+    position: relative;
+}
+
+.welcome h5:after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 2px;
+    left: 545px;
+    bottom: -15px;
+    background: #028794;
+}
+
+.welcome p{
+    font-size: 17px;
+    color: #fff;
+    font-family:proximanova-regular-webfont;
+    margin-top: 70px;
+    padding-bottom: 90px;
+}
+/*.........welcome-part end.........*/
+
+.border{
+    width: 360px;
+    height: 170px;
+    padding: 0px 15px;
+    border: 1px solid #cecaca;
+    margin-bottom: 90px;
+}
+.welcome_content_bg{
+    background: #273140;
+}
+.welcome_content i{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background: #028794;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-top: -15px;
+}
+.welcome_content h5{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #028794;
+    font-family:proximanova-bold-webfont;
+    font-size: 25px;
+}
+
+.welcome_content p{
+    font-size: 14px;
+    color: #fff;
+    font-family:proximanova-regular-webfont;
+}
+/*.........welcome-content end.........*/
+
+.parallax {
+    background: url(../images/about.png);
+    height: 413px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.about_us h5{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    font-family:proximanova-regular-webfont;
+}
+
+.about_us h6{
+    font-size: 50px;
+    color: #028794;
+    margin-bottom: 20px;
+    font-family:proximanova-bold-webfont;
+}
+.about_us p{
+    font-size: 15px;
+    color: #898b8f;
+    text-align: justify;
+    font-family:proximanova-regular-webfont;
+}
+/*.........about_us end.........*/
+.events_bg{
+    background: #273140;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.events .recent_event h4{
+    font-size: 18px;
+    color: #028794;
+    font-family:proximanova-boldit-webfont;
+}
+
+.events .date p{
+    font-size: 20px;
+    color: #028794;
+    font-family:proximanova-regular-webfont;
+    margin-left: 55px;
+}
+.events .date h4{
+    font-size: 40px;
+    color: #028794;
+    font-family:proximanova-boldit-webfont;
+    margin-left: 55px;
+}
+.events .date h6{
+    font-size: 20px;
+    color: #028794;
+    font-family:proximanova-regular-webfont;
+    margin-left: 55px;
+}
+.events .content h5{
+    font-size: 17px;
+    color: #028794;
+    font-family:proximanova-regular-webfont;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.events .content p{
+    font-size: 14px;
+    font-family:proximanova-regular-webfont;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 42px;
+}
+
+.events .content a{
+    padding: 7px 12px;
+    text-decoration: none;
+    background: #028794;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family:proximanova-boldit-webfont;
+    margin-left: 43px;
+}
+
+.events .content a:hover{
+    color: #028794;
+    background: #273140;
+    transition: all linear .6s;
+}
+/*.........events-part end.........*/
+
+.class_bg{
+    background: #1f2733;
+    /*background: #11161d;*/
+}
+
+.opening_hour h5{
+    color: #fff;
+    font-size: 18px;
+    font-family:proximanova-bold-webfont;
+    padding: 40px 0px;
+}
+.upcoming_class h6{
+    color: #fff;
+    font-size: 18px;
+    font-family:proximanova-bold-webfont;
+    padding: 40px 0px;
+}
+.service h3{
+    color: #fff;
+    font-size: 18px;
+    font-family:proximanova-bold-webfont;
+    padding: 40px 0px;
+}
+
+.time{
+    background: #1f2733;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.time ul li{
+    margin-bottom: 15px;
+}
+
+.time i{
+    color: #028794;
+    position: relative;
+}                                                                    
+
+.time p{
+    color: #898b8f;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -35px;
+    font-family:proximanova-regular-webfont;
+}
+
+.time h6{
+    color: #898b8f;
+    font-size: 15px;
+    font-family:proximanova-regular-webfont;
+    margin-top: 3px;
+    margin-bottom: 19px;
+}
+
+.time .service_item h6{
+    color: #898b8f;
+    font-size: 15px;
+    font-family:proximanova-regular-webfont;
+    margin-top: 3px;
+    margin-bottom: 19px;
+    margin-left: -96px;
+}
+/*.........classes-part end.........*/
+
+.coaches_content{
+    background: #273140;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.coaches_content h5{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    font-family:proximanova-bold-webfont;
+}
+.coaches_content p{
+    font-size: 20px;
+    color: #898b8f;
+    font-family:proximanova-regular-webfont;
+    margin-bottom: 90px;
+}
+/*.........coaches_content end.........*/
+
+.coaches_bg{
+    background: #273140;
+}
+.coaches h5{
+    font-size: 20px;
+    color: #028794;
+    font-family:proximanova-bold-webfont;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.coaches h6{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #028794;
+    font-family:proximanova-boldit-webfont;
+    margin-bottom: 10px;
+}
+.coaches p{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 90px;
+    font-family:proximanova-regular-webfont;
+    text-align: justify;
+}
+/*.........coaches-part end.........*/
+.latest_post_bg{
+    background: #1f2733;
+}
+
+.latest_post h5{
+    font-size: 30px;
+    color: #fff;
+    font-family:proximanova-bold-webfont;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+.latest_post h6{
+    font-size: 50px;
+    color: #028794;
+    font-family:proximanova-bold-webfont;
+    margin-bottom: 70px;
+}
+/*.........latest_post-part end.........*/
+.blog_bg{
+    background: #1f2733;
+}
+
+.blog{
+    background: #273140;
+    margin-bottom: 100px;
+}
+
+.blog:hover{
+    background: #171d26;
+    transition: all linear .6s;
+}
+
+.blog h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family:proximanova-bold-webfont;
+}
+.blog p{
+    color: #818489;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+/*.........blog-part end.........*/
+.testimonial .parallax{
+    background: url(../images/testimonial.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.testimonial h4{
+    font-size: 40px;
+    color: #fff;
+    font-family:proximanova-bold-webfont;
+    margin-top: 50px;
+}
+
+.testimonial h4:after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 2px;
+    left: 655px;
+    bottom: 480px;
+    background: #fff;
+}
+
+.testimonial i{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.testimonial p{
+    color: #fff;
+    font-size: 18px;
+    font-family:proximanova-regular-webfont;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.testimonial img{
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.testimonial h5{
+    color: #fff;
+    font-size: 25px;
+    font-family:proximanova-bold-webfont;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.testimonial h6{
+    color: #fff;
+    font-size: 15px;
+    font-family:proximanova-regular-webfont;
+    margin-bottom: 50px;
+}
+/*.........testimonial-part end.........*/
+.map_youtube{
+    background: #1f2733;
+}
+.map_youtube .map{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.map_youtube .youtube{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+/*.........map_youtube-part end.........*/
+
+footer{
+    background: #273140;
+}
+
+.footer .left img{
+    width: 130px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.footer .left ul li{
+    float: left;
+}
+.footer .left ul li a i{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    background: #028794;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 15px;
+    font-size: 13px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;border-radius: 50%;border-radius: 50%;
+    -webkit-border-radius: 50%;border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .5s;
+}
+.footer .left ul li a i:hover{
+    color: #028794;
+    background: #fff;
+    transform: rotate(360deg);
+}
+.footer .left h5{
+    color: #898b8f;
+    font-size: 15px;
+    font-family:proximanova-regular-webfont;
+}
+/*.........footer_left end.........*/
+
+.footer .middle_one{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.footer .middle_one h4{
+    color: #028794;
+    font-size: 20px;
+    font-family:proximanova-bold-webfont;
+    margin-bottom: 20px;
+}
+
+.footer .middle_one p{
+    line-height: 30px;
+    color: #898b8f;
+    font-size: 14px;
+    font-family:proximanova-regular-webfont;
+}
+/*.........footer_middle_one end.........*/
+
+.footer .middle_two{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.footer .middle_two .twitter h6{
+    color: #028794;
+    font-size: 20px;
+    font-family:proximanova-bold-webfont;
+    margin-bottom: 20px;
+}
+.footer .middle_two .twitter i{
+    color: #939393;
+}
+.footer .middle_two .twitter span{
+    color: #939393;
+}
+.footer .middle_two .twitter p{
+    color: #898b8f;
+    font-size: 15px;
+    text-align: justify;
+    font-family:proximanova-regular-webfont;
+    margin-top: 10px;
+}
+.footer .middle_two .twitter a{
+    text-decoration: none;
+    color: #55bbeb;
+    font-family:proximanova-bold-webfont;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+/*.........footer_middle_two end.........*/
+
+.footer .right{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.footer .right h5{
+    color: #028794;
+    font-size: 20px;
+    font-family:proximanova-bold-webfont;
+    margin-bottom: 20px
+    
+}
+.footer .right p{
+    color: #898b8f;
+    font-size: 15px;
+    text-align: justify;
+    font-family:proximanova-regular-webfont;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.footer .right i{
+    background: #028794;
+    padding: 7px;
+    color: #fff;
+    position: relative;
+}
+
+.footer .right .form-control{
+    width: 160px;
+    height: 28px;
+    position: absolute;
+    margin-left: 28px;
+    margin-top: -53px;
+    border-radius: 0px;
+    font-size: 9px;
+}
+
+.footer .right .btn{
+    padding: 4px 6px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-left: 188px;
+    margin-top: -130px;
+    border-radius: 0px;
+    background: #028794;
+    font-family:proximanova-bold-webfont;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.footer .right .small, small{
+    font-size: 85%;
+    margin-left: -100px;
+}
+
+/*.........footer-right end.........*/

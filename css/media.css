@@ -1,0 +1,497 @@
+@media(min-width:320px) and (max-width:767px){
+    .headline p{
+        font-size: 8px;
+    }
+    
+    .headline .login h6{
+        font-size: 8px;
+    }
+    
+    .headline .reg h6{
+        font-size: 8px;
+        margin-left: 15px;
+    }
+    
+    nav img{
+        width: 100px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+    
+    .nav{
+        padding-left: 0px;
+    }
+    
+    .nav li a{
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+    } 
+/*.........header-part end.........*/
+    
+    .welcome{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .welcome h5{
+        font-size: 15px;
+    }
+
+    .welcome h5:after{
+        width: 30px;
+        height: 2px;
+        left: 130px;
+        bottom: -10px;
+    }
+
+    .welcome p{
+        font-size: 10px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    /*.........welcome-part end.........*/
+    
+    .border{
+        width: 290px;
+        height: 130px;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .welcome_content i{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .welcome_content h5{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .welcome_content p{
+        font-size: 12px;
+    }
+/*.........welcome-content end.........*/
+    
+    .about_us{
+        margin-bottom: 0px;
+        height: 340px;
+    }
+
+    .about_us h5{
+        font-size: 15px;
+        margin-top: 60px;
+    }
+
+    .about_us h6{
+        font-size: 25px;
+    }
+    
+    .about_us p{
+        color: #fff;
+        font-size: 12px;
+        text-align: justify;
+    }
+/*.........about_us end.........*/
+    .events_bg{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .events .recent_event h4{
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .events .date p{
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .events .date h4{
+        font-size: 15px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .events .date h6{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .events .content h5{
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-left: 23px;
+    }
+    .events .content p{
+        font-size: 12px;
+        margin-bottom: 30px;
+        margin-left:  23px;
+    }
+
+    .events .content a{
+        padding: 5px 10px;
+        font-size: 8px;
+        margin-left: 115px; 
+    }
+/*.........events-part end.........*/
+    
+    .class_bg{
+        margin-top: 0px;
+    }
+    
+    .opening_hour h5{
+        font-size: 10px;
+        padding: 40px 0px;
+    }
+    
+    .upcoming_class h6{
+        color: #fff;
+        font-size: 10px;
+        font-family:proximanova-bold-webfont;
+        padding: 40px 0px;
+    }
+
+    .time{
+        padding-bottom: 30px;
+    }
+
+    .time ul li{
+        margin-bottom: 15px;
+    }
+
+    .time i{
+        font-size: 7px;
+    }                                                                    
+
+    .time p{
+        font-size: 8px;
+        margin-left: 20px;
+        margin-top: -30px;
+    }
+
+    .time h6{
+        font-size: 7px;
+        margin-top: 11px;
+        margin-bottom: 19px;
+    }
+
+/*.........classes-part end.........*/
+
+    .coaches_content h5{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .coaches_content p{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+/*.........coaches_content end.........*/
+
+    .coaches h5{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .coaches h6{
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .coaches p{
+        font-size: 9px;
+        margin-bottom: 40px;
+    }
+/*.........coaches-part end.........*/
+    
+   .latest_post h5{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    .latest_post h6{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+/*.........latest_post-part end.........*/
+
+    .blog{
+        background: #273140;
+        margin-bottom: 40px;
+    }
+/*.........blog-part end.........*/
+
+    .testimonial h4{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .testimonial h4:after{
+        width: 30px;
+        height: 2px;
+        left: 146px;
+        bottom: 365px;
+    }
+
+    .testimonial i{
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    .testimonial p{
+        font-size: 12px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial h5{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .testimonial h6{
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+/*.........testimonial-part end.........*/
+    
+    iframe{
+        width: 120px;
+        height: 90px;
+    }
+    
+    .map_youtube .map{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .map_youtube .youtube{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+/*.........map_youtube-part end.........*/
+}
+
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px){
+    
+    .headline p{
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    
+    .headline .login h6{
+        font-size: 8px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .headline .reg h6{
+        font-size: 8px;
+        margin-top: 10px
+    }
+
+    nav img{
+        width: 80px;
+        margin-top: 15px;
+    }
+
+    .nav{
+        padding-left: 10px;
+    }
+
+    .nav li a{
+        color: #fff;
+        font-size: 9px;
+    }
+
+    .navbar-right li a{
+        padding: 0px;
+        margin-top: 12px;
+    }
+
+    .navbar-right li a i{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        margin-left: 10px;
+        margin-top: 6px;
+    }
+/*.........header-part end.........*/
+    
+    .welcome{
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+    .welcome h5{
+        font-size: 20px;
+    }
+
+    .welcome h5:after{
+        width: 40px;
+        height: 2px;
+        left: 341px;
+        bottom: -15px;
+    }
+
+    .welcome p{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+/*.........welcome-part end.........*/
+    
+    .border{
+        width: 220px;
+        height: 170px;
+        padding: 0px 1px;
+        border: 1px solid #cecaca;
+    }
+
+    .welcome_content i{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: -15px;
+    }
+    .welcome_content h5{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .welcome_content p{
+        font-size: 14px;
+        color: #fff;
+        font-family:proximanova-regular-webfont;
+    }
+/*.........welcome-content end.........*/
+    
+    .about_us{
+        margin-bottom: 0px;
+        height: 313px;
+    }
+
+    .about_us h5{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family:proximanova-regular-webfont;
+    }
+
+    .about_us h6{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .about_us p{
+        font-size: 12px;
+    }
+/*.........about_us end.........*/
+   
+    .events .recent_event h4{
+        font-size: 20px;
+    }
+
+    .events .date p{
+        font-size: 15px;
+        margin-left: 55px;
+    }
+    .events .date h4{
+        font-size: 30px;
+        margin-left: 55px;
+    }
+    .events .date h6{
+        font-size: 15px;
+        margin-left: 55px;
+    }
+    .events .content h5{
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .events .content p{
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-left: 42px;
+    }
+/*.........events-part end.........*/
+    
+    .time .service_item h6{
+        margin-left: -55px;
+    }
+/*.........service-part end.........*/
+    .latest_post h5{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    .latest_post h6{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+/*.........latest_post-part end.........*/
+
+    .blog{
+        background: #273140;
+        margin-bottom: 40px;
+    }
+/*.........blog-part end.........*/
+    .testimonial h4:after{
+        width: 30px;
+        height: 2px;
+        left: 369px;
+        bottom: 505px;
+    }
+/*.........testimonial-part end.........*/  
+    
+    iframe{
+        width: 345px;
+        height: 160px;
+    }
+    
+    .map_youtube .map{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .map_youtube .youtube{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+/*.........map_youtube-part end.........*/
+    
+    .footer .right i{
+        font-size: 10px;
+        text-align: center;
+        padding: 6px 6px;
+    }
+
+    .footer .right .form-control{
+        width: 98px;
+        height: 22px;
+        margin-left: 22px;
+        margin-top: -47px;
+    }
+
+    .footer .right .btn{
+        padding: 5px 2px;
+        font-size: 7px;
+        letter-spacing: 1px;
+        margin-left: 119px;
+        margin-top: -165px;
+    }
+
+}
